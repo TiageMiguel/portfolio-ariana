@@ -1,0 +1,82 @@
+{
+  "pages": {
+    "homepage": {
+      "title": "Homepage",
+      "description": "Ariana Soares, a specialist in Personal Color Analysis and Makeup, helps enhance natural beauty through color analysis and personalized techniques. Discover your ideal palette and elevate your image with personalized beauty consulting.",
+      "about_highlighted": "Hello — I am Ariana Soares, an Entrepreneur & Image Consultant, based in Massachusetts.",
+      "about_text": "With international experience, I work with clients from all over the world, both online and in-person.",
+      "highlighted_links": {
+        "marykay_team": {
+          "title": "Team MaryKay",
+          "badge": "Join today",
+          "description": "Start today, start undertaking! Join my MaryKay Team and become a successful beauty consultant!",
+          "link_whatsapp": "Hey Ary! I came across your website and would like to be part of your team as a Beauty Consultant."
+        },
+        "image_consultancy": {
+          "title": "Image Consultancy",
+          "badge": "Learn more",
+          "description": "I will help you enhance your image and highlight the best of you. Feel confident and authentic every day!",
+          "link": "/en/image-consultancy"
+        },
+        "marykay_products": {
+          "title": "Buy MaryKay Products",
+          "link": "https://www.marykay.com/arisoares/en-us/find-an-independent-beauty-consultant/profile?cid=8452ba05-3c8d-4451-b335-67c8fbafc83e"
+        },
+        "contact-me": {
+          "title": "Contact or Partnerships",
+          "link_whatsapp": "Hey Ary! I came across your website and would like to schedule a meeting with you. What's your availability?"
+        }
+      }
+    },
+    "image_consultancy": {
+      "title": "Image Consultancy",
+      "description": "Ariana Soares, a specialist in Personal Color Analysis and Makeup, helps enhance natural beauty through color analysis and personalized techniques. Discover your ideal palette and elevate your image with personalized beauty consulting.",
+      "highlighted_links": {
+        "image_consultancy": {
+          "title": "Image Consultancy",
+          "badge": "Book now",
+          "description": "I will help you enhance your image and highlight the best of you. Feel confident and authentic every day!",
+          "link_whatsapp": "Hey Ary! I came across your website and would like to schedule an Image Consultancy. What is the availability?"
+        },
+        "image_consultancy_online": {
+          "title": "Image Consultancy",
+          "badge": "Online version",
+          "description": "Discover your style and enhance your image without leaving home. Personalized, practical and completely online guidance, so you feel confident on any occasion!",
+          "link": "https://www.fiverr.com/ariana_soares_/help-your-find-your-season-do-a-color-analysis-and-create-a-color-palette"
+        },
+        "image_clothes": {
+          "title": "Organize your wardrobe",
+          "link_whatsapp": "Hey Ary! I came across your website and would like you to help me sort out my wardrobe. What is the availability? Hello Ariana! I came across your website and would like you to help me sort out my wardrobe. What is the availability?"
+        },
+        "contact-me": {
+          "title": "Contact or Partnerships",
+          "link_whatsapp": "Hey Ary! I came across your website and would like to schedule a meeting with you. What's your availability?"
+        }
+      }
+    }
+  },
+  "socials": {
+    "description": "Follow all my content on my socials.",
+    "list": {
+      "instagram_main": {
+        "social": "Instagram - Main",
+        "handle": "@_arianaa.soares_",
+        "link": "https://www.instagram.com/_arianaa.soares_/"
+      },
+      "instagram_consultancy": {
+        "social": "Instagram - Image Consultancy",
+        "handle": "@arianasoares_consultoria",
+        "link": "https://www.instagram.com/arianasoares_consultoria/"
+      },
+      "tiktok": {
+        "social": "TikTok - Image Consultancy",
+        "handle": "@image_by_ariana",
+        "link": "https://www.tiktok.com/@image_by_ariana"
+      }
+    }
+  },
+  "acessibility": {
+    "skip_content": "Skip to main content",
+    "back_homepage": "back to homepage"
+  }
+}

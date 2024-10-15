@@ -1,0 +1,82 @@
+{
+  "pages": {
+    "homepage": {
+      "title": "Página Inicial",
+      "description": "Ariana Soares, especialista em Coloração Pessoal e Maquilhagem, ajuda a realçar a beleza natural através da análise de cores e técnicas personalizadas. Descubra a sua paleta ideal e eleve a sua imagem com consultoria de beleza personalizada.",
+      "about_highlighted": "Olá — Eu sou a Ariana Soares, Empreendedora & Consultora de Imagem, baseada em Massachusetts.",
+      "about_text": "Com experiência internacional, trabalho com clientes de todo o mundo, tanto online quanto presencialmente.",
+      "highlighted_links": {
+        "marykay_team": {
+          "title": "Equipa MaryKay",
+          "badge": "Junta-te hoje",
+          "description": "Começa hoje a empreender! Junta-te à minha equipa MaryKay e torna-te numa Consultora de Beleza de Sucesso!",
+          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostava de fazer parte da tua equipa como Consultora de Beleza."
+        },
+        "image_consultancy": {
+          "title": "Consultadoria de Imagem",
+          "badge": "Descobre mais",
+          "description": "Vou ajudar-te a valorizar a tua imagem e destacar o que tens de melhor. Sente-te confiante e autêntica todos os dias!",
+          "link": "/pt/image-consultancy"
+        },
+        "marykay_products": {
+          "title": "Comprar Produtos MaryKay",
+          "link": "https://www.marykay.com/arisoares/en-us/find-an-independent-beauty-consultant/profile?cid=8452ba05-3c8d-4451-b335-67c8fbafc83e"
+        },
+        "contact-me": {
+          "title": "Contato ou Parcerias",
+          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria de agendar uma reunião contigo. Qual a disponibilidade?"
+        }
+      }
+    },
+    "image_consultancy": {
+      "title": "Consultadoria de Imagem",
+      "description": "Ariana Soares, especialista em Coloração Pessoal e Maquilhagem, ajuda a realçar a beleza natural através da análise de cores e técnicas personalizadas. Descubra a sua paleta ideal e eleve a sua imagem com consultoria de beleza personalizada.",
+      "highlighted_links": {
+        "image_consultancy": {
+          "title": "Consultadoria de Imagem",
+          "badge": "Agenda Hoje",
+          "description": "Vou ajudar-te a valorizar a tua imagem e destacar o que tens de melhor. Sente-te confiante e autêntica todos os dias!",
+          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria de agendar uma Consultadoria de Imagem. Qual a disponibilidade?"
+        },
+        "image_consultancy_online": {
+          "title": "Consultadoria de Imagem",
+          "badge": "Versão online",
+          "description": "Descobre o teu estilo e valoriza a tua imagem sem sair de casa. Orientação personalizada, prática e totalmente online, para que te sintas confiante em qualquer ocasião!",
+          "link": "https://www.fiverr.com/ariana_soares_/help-your-find-your-season-do-a-color-analysis-and-create-a-color-palette"
+        },
+        "image_clothes": {
+          "title": "Arruma o teu Guarda Roupa",
+          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria que me ajudasses a resolver o meu guarda-roupa. Qual a disponibilidade?"
+        },
+        "contact-me": {
+          "title": "Contato ou Parcerias",
+          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria de agendar uma reunião contigo. Qual a disponibilidade?"
+        }
+      }
+    }
+  },
+  "socials": {
+    "description": "Acompanha todos os meus conteúdos nas minhas redes sociais.",
+    "list": {
+      "instagram_main": {
+        "social": "Instagram - Principal",
+        "handle": "@_arianaa.soares_",
+        "link": "https://www.instagram.com/_arianaa.soares_/"
+      },
+      "instagram_consultancy": {
+        "social": "Instagram - Consuladoria de Imagem",
+        "handle": "@arianasoares_consultoria",
+        "link": "https://www.instagram.com/arianasoares_consultoria/"
+      },
+      "tiktok": {
+        "social": "TikTok - Consuladoria de Imagem",
+        "handle": "@image_by_ariana",
+        "link": "https://www.tiktok.com/@image_by_ariana"
+      }
+    }
+  },
+  "acessibility": {
+    "skip_content": "Passar para o conteúdo principal",
+    "back_homepage": "voltar à página inicial"
+  }
+}
