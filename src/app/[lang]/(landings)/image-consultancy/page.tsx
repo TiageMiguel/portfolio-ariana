@@ -42,16 +42,16 @@ export default async function PageImageConsulting({
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
           <div className="col-span-1">
             <HeroSection translation={translation} lang={lang} />
-          </div>
-          <div className="col-span-1">
             <Link
               href={`/${lang}`}
               hrefLang={lang}
-              className="mb-4 flex flex-nowrap items-center gap-1 px-4 text-sm text-neutral-600 dark:text-neutral-400"
+              className="mt-4 flex flex-nowrap items-center gap-1 px-4 text-sm text-neutral-600 dark:text-neutral-400"
             >
               <ArrowLeft className="text-base" />
               <span>{translation.acessibility.back_homepage}</span>
             </Link>
+          </div>
+          <div className="col-span-1">
             <List>
               {Object.entries(
                 translation.pages.image_consultancy.highlighted_links

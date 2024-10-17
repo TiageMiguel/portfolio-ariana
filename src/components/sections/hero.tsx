@@ -15,14 +15,14 @@ export const HeroSection: FC<HeroSectionProps> = ({ translation, lang }) => {
   return (
     <div className="flex flex-col gap-6 px-4">
       <div className="flex flex-row justify-between gap-4">
-        <div className="size-24 rounded-full">
+        <div className="size-28 rounded-full">
           <Link href={`/${lang}`} lang={lang}>
             <span className="sr-only">Ariana Soares Face</span>
             <Image
               src="/assets/pfp.jpg"
               alt="Ary's face"
-              height={120}
-              width={120}
+              height={112}
+              width={112}
               priority
               fetchPriority="high"
               loading="eager"
