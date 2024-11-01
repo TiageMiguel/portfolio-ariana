@@ -25,7 +25,7 @@ export const Paragraph: FC<ParagraphProps> = ({
       {(title || subtitle) && (
         <div className="mb-1">
           {title && !titleLink && (
-            <span className="block text-lg font-semibold text-white">
+            <span className="block text-lg font-semibold text-foreground">
               {title}
             </span>
           )}
