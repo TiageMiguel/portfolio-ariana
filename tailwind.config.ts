@@ -10,24 +10,25 @@ const config = {
   ],
   prefix: "",
   theme: {
-    container: {
-      center: true,
-      padding: {
-        DEFAULT: "1rem",
-        sm: "2rem",
-        md: "2rem",
-        lg: "2rem",
-        "2xl": "2rem",
-      },
-      screens: {
-        "2xl": "1580px",
-      },
-    },
     extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          md: "2rem",
+          lg: "3rem",
+          xl: "3rem",
+          "2xl": "3rem",
+        },
+        screens: {
+          "2xl": "1580px",
+        },
+      },
       fontFamily: {
-        sans: ["var(--font-geist-sans)"],
-        mono: ["var(--font-geist-mono)"],
-        serif: ["var(--font-serif)"],
+        sans: ["var(--font-inter)"],
+        mono: ["var(--font-inter)"],
+        serif: ["var(--font-inter)"],
       },
       colors: {
         border: "hsl(var(--border))",

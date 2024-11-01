@@ -1,24 +1,16 @@
 "use client";
 
-import * as React from "react";
-
 import { Moon, Sun } from "@phosphor-icons/react/dist/ssr";
 import { useTheme } from "next-themes";
 
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 export function ThemeSwitcher() {
   const { setTheme, theme } = useTheme();
 
   return (
     <Button
-      variant="outline"
+      variant="ghost"
       size="icon"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >

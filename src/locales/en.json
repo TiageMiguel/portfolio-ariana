@@ -5,78 +5,207 @@
       "description": "Ariana Soares, a specialist in Personal Color Analysis and Makeup, helps enhance natural beauty through color analysis and personalized techniques. Discover your ideal palette and elevate your image with personalized beauty consulting.",
       "about_highlighted": "Hello — I am Ariana Soares, an Entrepreneur & Image Consultant, based in Massachusetts.",
       "about_text": "With international experience, I work with clients from all over the world, both online and in-person.",
-      "highlighted_links": {
-        "marykay_team": {
-          "title": "Team MaryKay",
-          "badge": "Join today",
-          "description": "Start today, start undertaking! Join my MaryKay Team and become a successful beauty consultant!",
-          "link_whatsapp": "Hey Ary! I came across your website and would like to be part of your team as a Beauty Consultant."
+      "cards": {
+        "popular": {
+          "title": "Popular",
+          "items": [
+            {
+              "title": "Team MaryKay",
+              "badge": "Join today",
+              "description": "Start today, start undertaking! Join my MaryKay Team and become a successful beauty consultant!",
+              "link_whatsapp": "Hey Ary! I came across your website and would like to be part of your team as a Beauty Consultant."
+            },
+            {
+              "title": "Image Consultancy",
+              "badge": "Book now",
+              "description": "I will help you enhance your image and highlight the best of you. Feel confident and authentic every day!",
+              "link_whatsapp": "Hey Ary! I came across your website and would like to schedule an Image Consultancy. What is the availability?"
+            },
+            {
+              "title": "Image Consultancy",
+              "badge": "Online version",
+              "description": "Discover your style and enhance your image without leaving home. Personalized, practical and completely online guidance, so you feel confident on any occasion!",
+              "link": "https://www.fiverr.com/ariana_soares_/help-your-find-your-season-do-a-color-analysis-and-create-a-color-palette"
+            }
+          ]
         },
-        "image_consultancy": {
-          "title": "Image Consultancy",
-          "badge": "Learn more",
-          "description": "I will help you enhance your image and highlight the best of you. Feel confident and authentic every day!",
-          "link": "/en/image-consultancy"
+        "services": {
+          "title": "Services",
+          "items": [
+            {
+              "title": "Buy MaryKay Products",
+              "link": "https://www.marykay.com/arisoares/en-us/find-an-independent-beauty-consultant/profile?cid=8452ba05-3c8d-4451-b335-67c8fbafc83e"
+            },
+            {
+              "title": "Organize your wardrobe",
+              "link_whatsapp": "Hey Ary! I came across your website and would like you to help me sort out my wardrobe. What is the availability? Hello Ariana! I came across your website and would like you to help me sort out my wardrobe. What is the availability?"
+            },
+            {
+              "title": "Professional Makeup",
+              "link_whatsapp": "Hey Ary! I came across your website and would like you to help me sort out my wardrobe. What is the availability? Hello Ariana! I came across your website and would like you to help me sort out my wardrobe. What is the availability?"
+            },
+            {
+              "title": "Contact or Partnerships",
+              "link_whatsapp": "Hey Ary! I came across your website and would like to schedule a meeting with you. What's your availability?"
+            }
+          ]
         },
-        "marykay_products": {
-          "title": "Buy MaryKay Products",
-          "link": "https://www.marykay.com/arisoares/en-us/find-an-independent-beauty-consultant/profile?cid=8452ba05-3c8d-4451-b335-67c8fbafc83e"
+        "discover": {
+          "title": "Discover",
+          "items": [
+            {
+              "title": "My Journey",
+              "link": "/w/work"
+            },
+            {
+              "title": "My Marykay Team",
+              "link": "/w/marykay-team"
+            },
+            {
+              "title": "What is Marykay?",
+              "link": "/w/marykay"
+            },
+            {
+              "title": "What is an Image Consultancy?",
+              "link": "/w/image-consultancy"
+            },
+            {
+              "title": "How I organize your wardrobe?",
+              "link": "/w/transform-wardrobe"
+            }
+          ]
         },
-        "contact-me": {
-          "title": "Contact or Partnerships",
-          "link_whatsapp": "Hey Ary! I came across your website and would like to schedule a meeting with you. What's your availability?"
+        "socials": {
+          "title": "Follow me",
+          "items": [
+            {
+              "title": "@_arianaa.soares_",
+              "description": "Instagram - Main",
+              "link": "https://www.instagram.com/_arianaa.soares_/"
+            },
+            {
+              "title": "@arianasoares_consultoria",
+              "description": "Instagram - Image Consultancy",
+              "link": "https://www.instagram.com/arianasoares_consultoria/"
+            },
+            {
+              "title": "@image_by_ariana",
+              "description": "TikTok - Image Consultancy",
+              "link": "https://www.tiktok.com/@image_by_ariana"
+            }
+          ]
         }
       }
     },
-    "image_consultancy": {
-      "title": "Image Consultancy",
-      "description": "Ariana Soares, a specialist in Personal Color Analysis and Makeup, helps enhance natural beauty through color analysis and personalized techniques. Discover your ideal palette and elevate your image with personalized beauty consulting.",
-      "highlighted_links": {
-        "image_consultancy": {
-          "title": "Image Consultancy",
-          "badge": "Book now",
-          "description": "I will help you enhance your image and highlight the best of you. Feel confident and authentic every day!",
-          "link_whatsapp": "Hey Ary! I came across your website and would like to schedule an Image Consultancy. What is the availability?"
-        },
-        "image_consultancy_online": {
-          "title": "Image Consultancy",
-          "badge": "Online version",
-          "description": "Discover your style and enhance your image without leaving home. Personalized, practical and completely online guidance, so you feel confident on any occasion!",
-          "link": "https://www.fiverr.com/ariana_soares_/help-your-find-your-season-do-a-color-analysis-and-create-a-color-palette"
-        },
-        "image_clothes": {
-          "title": "Organize your wardrobe",
-          "link_whatsapp": "Hey Ary! I came across your website and would like you to help me sort out my wardrobe. What is the availability? Hello Ariana! I came across your website and would like you to help me sort out my wardrobe. What is the availability?"
-        },
-        "contact-me": {
-          "title": "Contact or Partnerships",
-          "link_whatsapp": "Hey Ary! I came across your website and would like to schedule a meeting with you. What's your availability?"
-        }
-      }
-    }
-  },
-  "socials": {
-    "description": "Follow all my content on my socials.",
-    "list": {
-      "instagram_main": {
-        "social": "Instagram - Main",
-        "handle": "@_arianaa.soares_",
-        "link": "https://www.instagram.com/_arianaa.soares_/"
+    "w": {
+      "work": {
+        "title": "Work",
+        "description": "Ariana Soares – Image and Beauty Consultant dedicated to empowering women.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "MaryKay Consultant",
+            "titleLink": "/w/marykay",
+            "paragraph": "My mission is to provide transformative experiences for every client, through a complete line of skincare and makeup products. With Mary Kay, I teach each woman how to highlight her beauty and boost self-esteem."
+          },
+          {
+            "title": "Image and Professional Makeup Consultant",
+            "titleLink": "/w/image-consultancy",
+            "paragraph": "As an image consultant, I help clients discover their personal style, creating a wardrobe that reflects their essence. Through color and style analysis, I offer practical guidance so every client feels confident and comfortable with their appearance."
+          },
+          {
+            "title": "Beauty Workshops and Events",
+            "paragraph": "I organize workshops on beauty and style, where I share techniques and practical knowledge. These events offer an opportunity for participants to learn, explore new ideas, and feel more confident on their beauty journey."
+          }
+        ]
       },
-      "instagram_consultancy": {
-        "social": "Instagram - Image Consultancy",
-        "handle": "@arianasoares_consultoria",
-        "link": "https://www.instagram.com/arianasoares_consultoria/"
+      "marykay": {
+        "title": "Mary Kay",
+        "description": "Discover Mary Kay beauty solutions and personalized consultations.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "Welcome to Mary Kay",
+            "paragraph": "Welcome to the world of Mary Kay, where each product is designed to enhance your beauty and promote self-care. As your beauty consultant, I'm here to guide you in finding products that complement your skin, style, and personality, helping you build a personalized beauty routine."
+          },
+          {
+            "title": "Personalized Skincare",
+            "paragraph": "Find facial care products that meet your skin's specific needs, from hydration to anti-aging solutions, giving you a healthy and radiant complexion."
+          },
+          {
+            "title": "Makeup to Enhance",
+            "paragraph": "From classic shades to bold looks, every Mary Kay makeup product is created to highlight the best in you. Learn techniques to apply makeup practically and feel confident in any setting."
+          },
+          {
+            "title": "Personalized Beauty Consultations",
+            "paragraph": "Through individual consultations, I help you choose the right products for you and teach you how to integrate these products into your daily routine. You can opt for in-person or online consultations, offering total convenience."
+          },
+          {
+            "title": "Join My Team",
+            "paragraph": "Are you passionate about beauty and want to help others feel great about themselves? Join my Mary Kay team and start a fulfilling career where you empower others while building your own business. Contact me to learn more."
+          }
+        ]
       },
-      "tiktok": {
-        "social": "TikTok - Image Consultancy",
-        "handle": "@image_by_ariana",
-        "link": "https://www.tiktok.com/@image_by_ariana"
+      "marykay-team": {
+        "title": "My MaryKay Team",
+        "description": "Explore the benefits and growth opportunities of joining the Mary Kay consultant team.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "Benefits of Becoming a Mary Kay Consultant",
+            "paragraph": "By joining my team, you’ll receive comprehensive training, support materials, and the guidance needed to develop your own business. Mary Kay offers a flexible structure, allowing you to work at your own pace and build a source of income based on your goals."
+          },
+          {
+            "title": "Growth Opportunities",
+            "paragraph": "From rewards to recognition events, Mary Kay values your effort and dedication. With my guidance and the brand's ongoing training, you’ll gain the knowledge and confidence to thrive as a consultant."
+          },
+          {
+            "title": "Interested in Learning More?",
+            "paragraph": "Contact me to find out how you can become a Mary Kay consultant and join a team of motivated women passionate about transforming lives and building a brighter future."
+          }
+        ]
+      },
+      "image-consultancy": {
+        "title": "Image Consultancy",
+        "description": "Discover your unique style with personalized image consulting services.",
+        "animatedName": "@arianasoares_consultoria",
+        "paragraphs": [
+          {
+            "title": "Personal Color Analysis",
+            "paragraph": "Discover the color palette that best complements your skin, hair, and eyes, highlighting your natural beauty and adding harmony to your look."
+          },
+          {
+            "title": "Style Definition",
+            "paragraph": "We identify your personal style and tailor your wardrobe so that you feel confident in any situation. From professional to casual looks, we’ll define a style that works for your daily life."
+          },
+          {
+            "title": "Capsule Wardrobe",
+            "paragraph": "Build a practical, efficient wardrobe with versatile pieces that allow you to create elegant combinations and simplify your routine."
+          }
+        ]
+      },
+      "transform-wardrobe": {
+        "title": "Transform Your Wardrobe",
+        "description": "Get a refreshed and organized wardrobe tailored to your style and needs.",
+        "animatedName": "@arianasoares_consultoria",
+        "paragraphs": [
+          {
+            "title": "Organization and Optimization",
+            "paragraph": "We start by analyzing your current wardrobe, identifying key pieces, and removing anything that no longer reflects your style. Then, we reorganize your wardrobe to make it easier to create daily looks."
+          },
+          {
+            "title": "Selection of Versatile Pieces",
+            "paragraph": "We’ll choose versatile, quality pieces that suit your style and personality, helping you build a functional, coordinated wardrobe."
+          },
+          {
+            "title": "Personalized Consultancy",
+            "paragraph": "Everyone is unique, so I adapt this service to your preferences and lifestyle, ensuring that each piece in your wardrobe makes sense for you."
+          }
+        ]
       }
     }
   },
   "acessibility": {
-    "skip_content": "Skip to main content",
-    "back_homepage": "back to homepage"
+    "skip_content": "Skip to main content"
   }
 }

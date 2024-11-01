@@ -5,78 +5,207 @@
       "description": "Ariana Soares, especialista em Coloração Pessoal e Maquilhagem, ajuda a realçar a beleza natural através da análise de cores e técnicas personalizadas. Descubra a sua paleta ideal e eleve a sua imagem com consultoria de beleza personalizada.",
       "about_highlighted": "Olá — Eu sou a Ariana Soares, Empreendedora & Consultora de Imagem, baseada em Massachusetts.",
       "about_text": "Com experiência internacional, trabalho com clientes de todo o mundo, tanto online quanto presencialmente.",
-      "highlighted_links": {
-        "marykay_team": {
-          "title": "Equipa MaryKay",
-          "badge": "Junta-te hoje",
-          "description": "Começa hoje a empreender! Junta-te à minha equipa MaryKay e torna-te numa Consultora de Beleza de Sucesso!",
-          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostava de fazer parte da tua equipa como Consultora de Beleza."
+      "cards": {
+        "popular": {
+          "title": "Popular",
+          "items": [
+            {
+              "title": "Equipa MaryKay",
+              "badge": "Junte-se hoje",
+              "description": "Comece hoje mesmo! Junte-se à minha Equipa MaryKay e torne-se uma consultora de beleza de sucesso!",
+              "link_whatsapp": "Olá Ary! Encontrei o teu site e gostaria de fazer parte da tua equipa como Consultora de Beleza."
+            },
+            {
+              "title": "Consultoria de Imagem",
+              "badge": "Marque agora",
+              "description": "Vou ajudar-te a realçar a tua imagem e destacar o melhor de ti. Sente-te confiante e autêntica todos os dias!",
+              "link_whatsapp": "Olá Ary! Encontrei o teu site e gostaria de marcar uma Consultoria de Imagem. Qual é a disponibilidade?"
+            },
+            {
+              "title": "Consultoria de Imagem",
+              "badge": "Versão online",
+              "description": "Descobre o teu estilo e realça a tua imagem sem sair de casa. Orientação personalizada, prática e totalmente online, para que te sintas confiante em qualquer ocasião!",
+              "link": "https://www.fiverr.com/ariana_soares_/help-your-find-your-season-do-a-color-analysis-and-create-a-color-palette"
+            }
+          ]
         },
-        "image_consultancy": {
-          "title": "Consultadoria de Imagem",
-          "badge": "Descobre mais",
-          "description": "Vou ajudar-te a valorizar a tua imagem e destacar o que tens de melhor. Sente-te confiante e autêntica todos os dias!",
-          "link": "/pt/image-consultancy"
+        "services": {
+          "title": "Serviços",
+          "items": [
+            {
+              "title": "Comprar Produtos MaryKay",
+              "link": "https://www.marykay.com/arisoares/en-us/find-an-independent-beauty-consultant/profile?cid=8452ba05-3c8d-4451-b335-67c8fbafc83e"
+            },
+            {
+              "title": "Organizar o seu guarda-roupa",
+              "link_whatsapp": "Olá Ary! Encontrei o teu site e gostaria que me ajudasses a organizar o meu guarda-roupa. Qual é a disponibilidade?"
+            },
+            {
+              "title": "Maquilhagem Profissional",
+              "link_whatsapp": "Olá Ary! Encontrei o teu site e gostaria de saber sobre os teus serviços de maquilhagem profissional. Qual é a disponibilidade?"
+            },
+            {
+              "title": "Contactos ou Parcerias",
+              "link_whatsapp": "Olá Ary! Encontrei o teu site e gostaria de marcar uma reunião contigo. Qual é a tua disponibilidade?"
+            }
+          ]
         },
-        "marykay_products": {
-          "title": "Comprar Produtos MaryKay",
-          "link": "https://www.marykay.com/arisoares/en-us/find-an-independent-beauty-consultant/profile?cid=8452ba05-3c8d-4451-b335-67c8fbafc83e"
+        "discover": {
+          "title": "Descobre",
+          "items": [
+            {
+              "title": "A Minha Jornada",
+              "link": "/w/work"
+            },
+            {
+              "title": "A Minha Equipa MaryKay",
+              "link": "/w/marykay-team"
+            },
+            {
+              "title": "O que é a MaryKay?",
+              "link": "/w/marykay"
+            },
+            {
+              "title": "O que é uma Consultoria de Imagem?",
+              "link": "/w/image-consultancy"
+            },
+            {
+              "title": "Como organizo o seu guarda-roupa?",
+              "link": "/w/transform-wardrobe"
+            }
+          ]
         },
-        "contact-me": {
-          "title": "Contato ou Parcerias",
-          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria de agendar uma reunião contigo. Qual a disponibilidade?"
+        "socials": {
+          "title": "Segue-me",
+          "items": [
+            {
+              "title": "@_arianaa.soares_",
+              "description": "Instagram - Principal",
+              "link": "https://www.instagram.com/_arianaa.soares_/"
+            },
+            {
+              "title": "@arianasoares_consultoria",
+              "description": "Instagram - Consultoria de Imagem",
+              "link": "https://www.instagram.com/arianasoares_consultoria/"
+            },
+            {
+              "title": "@image_by_ariana",
+              "description": "TikTok - Consultoria de Imagem",
+              "link": "https://www.tiktok.com/@image_by_ariana"
+            }
+          ]
         }
       }
     },
-    "image_consultancy": {
-      "title": "Consultadoria de Imagem",
-      "description": "Ariana Soares, especialista em Coloração Pessoal e Maquilhagem, ajuda a realçar a beleza natural através da análise de cores e técnicas personalizadas. Descubra a sua paleta ideal e eleve a sua imagem com consultoria de beleza personalizada.",
-      "highlighted_links": {
-        "image_consultancy": {
-          "title": "Consultadoria de Imagem",
-          "badge": "Agenda Hoje",
-          "description": "Vou ajudar-te a valorizar a tua imagem e destacar o que tens de melhor. Sente-te confiante e autêntica todos os dias!",
-          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria de agendar uma Consultadoria de Imagem. Qual a disponibilidade?"
-        },
-        "image_consultancy_online": {
-          "title": "Consultadoria de Imagem",
-          "badge": "Versão online",
-          "description": "Descobre o teu estilo e valoriza a tua imagem sem sair de casa. Orientação personalizada, prática e totalmente online, para que te sintas confiante em qualquer ocasião!",
-          "link": "https://www.fiverr.com/ariana_soares_/help-your-find-your-season-do-a-color-analysis-and-create-a-color-palette"
-        },
-        "image_clothes": {
-          "title": "Arruma o teu Guarda Roupa",
-          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria que me ajudasses a resolver o meu guarda-roupa. Qual a disponibilidade?"
-        },
-        "contact-me": {
-          "title": "Contato ou Parcerias",
-          "link_whatsapp": "Olá Ariana! Vim pelo teu site e gostaria de agendar uma reunião contigo. Qual a disponibilidade?"
-        }
-      }
-    }
-  },
-  "socials": {
-    "description": "Acompanha todos os meus conteúdos nas minhas redes sociais.",
-    "list": {
-      "instagram_main": {
-        "social": "Instagram - Principal",
-        "handle": "@_arianaa.soares_",
-        "link": "https://www.instagram.com/_arianaa.soares_/"
+    "w": {
+      "work": {
+        "title": "Trabalho",
+        "description": "Ariana Soares – Consultora de Imagem e Beleza dedicada a empoderar mulheres.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "Consultora MaryKay",
+            "titleLink": "/w/marykay",
+            "paragraph": "A minha missão é proporcionar experiências transformadoras a cada cliente, através de uma linha completa de produtos de cuidados com a pele e maquilhagem. Com a Mary Kay, ensino cada mulher a destacar a sua beleza e aumentar a sua autoestima."
+          },
+          {
+            "title": "Consultora de Imagem e Maquilhagem Profissional",
+            "titleLink": "/w/image-consultancy",
+            "paragraph": "Como consultora de imagem, ajudo clientes a descobrir o seu estilo pessoal, criando um guarda-roupa que reflete a sua essência. Através da análise de cores e estilos, ofereço orientações práticas para que cada cliente se sinta confiante e confortável com a sua aparência."
+          },
+          {
+            "title": "Workshops e Eventos de Beleza",
+            "paragraph": "Organizo workshops sobre beleza e estilo, onde partilho técnicas e conhecimentos práticos. Estes eventos oferecem uma oportunidade para os participantes aprenderem, explorarem novas ideias e se sentirem mais confiantes na sua jornada de beleza."
+          }
+        ]
       },
-      "instagram_consultancy": {
-        "social": "Instagram - Consuladoria de Imagem",
-        "handle": "@arianasoares_consultoria",
-        "link": "https://www.instagram.com/arianasoares_consultoria/"
+      "marykay": {
+        "title": "Mary Kay",
+        "description": "Descobre as soluções de beleza Mary Kay e consultorias personalizadas.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "Bem-vindo à Mary Kay",
+            "paragraph": "Bem-vindo ao mundo da Mary Kay, onde cada produto é concebido para realçar a tua beleza e promover o autocuidado. Como a tua consultora de beleza, estou aqui para te guiar na escolha dos produtos que complementam a tua pele, estilo e personalidade, ajudando-te a construir uma rotina de beleza personalizada."
+          },
+          {
+            "title": "Cuidados de Pele Personalizados",
+            "paragraph": "Encontra produtos de cuidados faciais que atendem às necessidades específicas da tua pele, desde hidratação a soluções anti-envelhecimento, proporcionando-te uma pele saudável e radiante."
+          },
+          {
+            "title": "Maquilhagem para Realçar",
+            "paragraph": "Desde tons clássicos a looks ousados, cada produto de maquilhagem da Mary Kay é criado para destacar o melhor de ti. Aprende técnicas para aplicar maquilhagem de forma prática e sente-te confiante em qualquer ocasião."
+          },
+          {
+            "title": "Consultorias de Beleza Personalizadas",
+            "paragraph": "Através de consultorias individuais, ajudo-te a escolher os produtos certos para ti e ensino-te como integrar esses produtos na tua rotina diária. Podes optar por consultorias presenciais ou online, oferecendo total conveniência."
+          },
+          {
+            "title": "Junta-te à Minha Equipa",
+            "paragraph": "Tens paixão pela beleza e queres ajudar os outros a sentirem-se bem consigo mesmos? Junta-te à minha equipa Mary Kay e começa uma carreira gratificante onde empoderas os outros enquanto construís o teu próprio negócio. Contacta-me para saber mais."
+          }
+        ]
       },
-      "tiktok": {
-        "social": "TikTok - Consuladoria de Imagem",
-        "handle": "@image_by_ariana",
-        "link": "https://www.tiktok.com/@image_by_ariana"
+      "marykay-team": {
+        "title": "A Minha Equipa MaryKay",
+        "description": "Explora os benefícios e oportunidades de crescimento ao juntares-te à equipa de consultores Mary Kay.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "Benefícios de Te Tornar Consultora Mary Kay",
+            "paragraph": "Ao juntares-te à minha equipa, receberás formação abrangente, materiais de apoio e a orientação necessária para desenvolver o teu próprio negócio. A Mary Kay oferece uma estrutura flexível, permitindo-te trabalhar ao teu próprio ritmo e construir uma fonte de rendimento com base nos teus objetivos."
+          },
+          {
+            "title": "Oportunidades de Crescimento",
+            "paragraph": "Desde recompensas a eventos de reconhecimento, a Mary Kay valoriza o teu esforço e dedicação. Com a minha orientação e a formação contínua da marca, ganharás o conhecimento e a confiança para prosperar como consultora."
+          },
+          {
+            "title": "Interessada em Saber Mais?",
+            "paragraph": "Contacta-me para saber como te podes tornar consultora Mary Kay e junta-te a uma equipa de mulheres motivadas, apaixonadas por transformar vidas e construir um futuro melhor."
+          }
+        ]
+      },
+      "image-consultancy": {
+        "title": "Consultoria de Imagem",
+        "description": "Descobre o teu estilo único com serviços de consultoria de imagem personalizados.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "O que é a Consultoria de Imagem?",
+            "paragraph": "A consultoria de imagem é um processo personalizado que visa ajudar os clientes a desenvolver um estilo que reflita a sua personalidade e os faça sentir-se confiantes. Inclui análise de cores, morfologia, estilos e organização do guarda-roupa."
+          },
+          {
+            "title": "Como Funciona?",
+            "paragraph": "Através de uma avaliação inicial, identificamos as tuas preferências, necessidades e objetivos. Com base nisso, realizamos a análise de cores e estilo, e oferecemos recomendações práticas para atualizar e otimizar o teu guarda-roupa."
+          },
+          {
+            "title": "Porquê Escolher a Ariana Soares?",
+            "paragraph": "Com um olhar atento às tendências e à individualidade, eu, Ariana Soares, utilizo a minha experiência para ajudar cada cliente a encontrar a sua melhor versão. O meu objetivo é capacitar-te a sentir-te bem na tua própria pele."
+          }
+        ]
+      },
+      "transform-wardrobe": {
+        "title": "Transformar o Guarda-Roupa",
+        "description": "Aprende a otimizar o teu guarda-roupa e a criar looks que te fazem sentir bem.",
+        "animatedName": "@_arianaa.soares_",
+        "paragraphs": [
+          {
+            "title": "A Importância da Organização do Guarda-Roupa",
+            "paragraph": "Um guarda-roupa bem organizado não só poupa tempo na escolha de roupas, mas também ajuda a identificar quais as peças que realmente utilizas. Além disso, pode revelar novas combinações e estilos que nunca pensaste."
+          },
+          {
+            "title": "O Meu Método de Organização",
+            "paragraph": "Utilizo um método prático que inclui a separação de peças por categorias, avaliação do que fica e do que deve ser doado, e sugestões de novas compras que se alinham com o teu estilo. Assim, criaremos um guarda-roupa que te represente."
+          },
+          {
+            "title": "Dicas para Manter o Teu Guarda-Roupa Organizado",
+            "paragraph": "A manutenção é a chave! Encorajo-te a realizar limpezas periódicas e a avaliar as tuas escolhas de vestuário. Acompanhar as tendências de moda e as tuas preferências também pode ajudar na hora de adquirir novas peças."
+          }
+        ]
       }
     }
   },
   "acessibility": {
-    "skip_content": "Passar para o conteúdo principal",
-    "back_homepage": "voltar à página inicial"
+    "skip_content": "Passar parar o conteúdo"
   }
 }

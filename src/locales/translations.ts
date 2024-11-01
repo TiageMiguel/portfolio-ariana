@@ -3,6 +3,7 @@ import "server-only";
 const dictionaries = {
   en: async () => (await import("./en.json")).default,
   pt: async () => (await import("./pt.json")).default,
+  "pt-BR": async () => (await import("./pt-BR.json")).default,
 };
 
 export type Locale = keyof typeof dictionaries;

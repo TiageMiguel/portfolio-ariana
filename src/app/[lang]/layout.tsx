@@ -1,15 +1,24 @@
+import { Inter } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GeistSans } from "geist/font/sans";
-import { ViewTransitions } from "next-view-transitions";
 
+import { LanguageSwitcher } from "@/components/switcher-language";
+import { ThemeSwitcher } from "@/components/switcher-theme";
 import { defaultMetadata, defaultViewport } from "@/config/seo";
-import "@/globals.css";
 import { defaultLocale, getTranslation, locales } from "@/locales/translations";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { PageParams } from "@/types/page-types";
+
+import "../../globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const dynamic = "force-static";
 export const viewport = defaultViewport;
@@ -23,30 +32,60 @@ interface LayoutProps extends PageParams {
   children: React.ReactNode;
 }
 
-export default async function RootLayout({ children, params }: LayoutProps) {
-  const lang = params.lang ?? defaultLocale;
-  const translation = await getTranslation(lang);
+export default async function RootLayout({ params, children }: LayoutProps) {
+  const { lang } = await params;
+  const translation = await getTranslation(lang ?? defaultLocale);
 
   return (
-    <ViewTransitions>
-      <html lang={lang} suppressHydrationWarning>
-        <body
-          className={`${GeistSans.variable} scroll-smooth bg-background font-sans text-foreground antialiased`}
+    <html lang={lang} suppressHydrationWarning>
+      <body
+        className={`${inter.variable} relative scroll-smooth bg-background font-sans text-foreground antialiased`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          disableTransitionOnChange
         >
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            disableTransitionOnChange
+          <Link href="#main-content" className="sr-only focus:not-sr-only">
+            {translation.acessibility.skip_content}
+          </Link>
+          <main
+            id="main-content"
+            className="flex-start relative flex min-h-screen items-start justify-center py-16"
           >
-            <Link href="#main-content" className="sr-only focus:not-sr-only">
-              {translation.acessibility.skip_content}
-            </Link>
-            {children}
-          </ThemeProvider>
-          <Analytics />
-          <SpeedInsights />
-        </body>
-      </html>
-    </ViewTransitions>
+            <div className="pointer-events-none fixed inset-x-0 top-0 z-50 h-16 bg-gradient-to-b from-background to-background/0" />
+            <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 h-16 bg-gradient-to-b from-background/0 to-background" />
+            <div className="container mx-auto max-w-5xl">
+              <div className="gap- flex flex-col gap-6">
+                <div className="flex flex-row justify-between px-4">
+                  <div className="size-28 rounded-full lg:size-32">
+                    <Link href={`/${lang}`} lang={lang}>
+                      <span className="sr-only">Ariana Soares Image</span>
+                      <Image
+                        src="/assets/pfp.jpg"
+                        alt="Ary's face"
+                        height={144}
+                        width={144}
+                        priority
+                        fetchPriority="high"
+                        loading="eager"
+                        className="size-full overflow-hidden rounded-full object-cover"
+                      />
+                    </Link>
+                  </div>
+                  <div className="flex flex-row">
+                    <ThemeSwitcher />
+                    <LanguageSwitcher lang={lang} />
+                  </div>
+                </div>
+                {children}
+              </div>
+            </div>
+          </main>
+        </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
+      </body>
+    </html>
   );
 }

@@ -19,20 +19,24 @@ import { Locale } from "@/locales/translations";
 
 interface LanguageSwitcherProps {
   lang: Locale;
+  align?: "start" | "center" | "end";
 }
 
-export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({ lang }) => {
+export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({
+  lang,
+  align = "end",
+}) => {
   const pathname = usePathname();
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="icon">
+        <Button variant="ghost" size="icon">
           <Translate className="text-xl" />
           <span className="sr-only">Change Website Language</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-32" align="end">
+      <DropdownMenuContent className="w-44" align={align}>
         <LanguageSwitcherGroup pathname={pathname} />
       </DropdownMenuContent>
     </DropdownMenu>
@@ -58,6 +62,12 @@ const LanguageSwitcherGroup = ({ pathname }: { pathname: string }) => {
         <Link href={getLocalizedPath("pt")} hrefLang="pt">
           <span className="mr-2 text-lg">🇵🇹</span>
           Português
+        </Link>
+      </DropdownMenuItem>
+      <DropdownMenuItem>
+        <Link href={getLocalizedPath("pt-BR")} hrefLang="pt-BR">
+          <span className="mr-2 text-lg">🇧🇷</span>
+          Português (Brasil)
         </Link>
       </DropdownMenuItem>
     </DropdownMenuGroup>
