@@ -50,6 +50,26 @@
             }
           ]
         },
+        "socials": {
+          "title": "Segue-me",
+          "items": [
+            {
+              "title": "@_arianaa.soares_",
+              "description": "Instagram - Principal",
+              "link": "https://www.instagram.com/_arianaa.soares_/"
+            },
+            {
+              "title": "@arianasoares_consultoria",
+              "description": "Instagram - Consultoria de Imagem",
+              "link": "https://www.instagram.com/arianasoares_consultoria/"
+            },
+            {
+              "title": "@image_by_ariana",
+              "description": "TikTok - Consultoria de Imagem",
+              "link": "https://www.tiktok.com/@image_by_ariana"
+            }
+          ]
+        },
         "discover": {
           "title": "Descobre",
           "items": [
@@ -72,26 +92,6 @@
             {
               "title": "Como organizo o seu guarda-roupa?",
               "link": "/w/transform-wardrobe"
-            }
-          ]
-        },
-        "socials": {
-          "title": "Segue-me",
-          "items": [
-            {
-              "title": "@_arianaa.soares_",
-              "description": "Instagram - Principal",
-              "link": "https://www.instagram.com/_arianaa.soares_/"
-            },
-            {
-              "title": "@arianasoares_consultoria",
-              "description": "Instagram - Consultoria de Imagem",
-              "link": "https://www.instagram.com/arianasoares_consultoria/"
-            },
-            {
-              "title": "@image_by_ariana",
-              "description": "TikTok - Consultoria de Imagem",
-              "link": "https://www.tiktok.com/@image_by_ariana"
             }
           ]
         }

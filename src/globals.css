@@ -8,7 +8,7 @@
   }
 
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 97%;
     --foreground: 0 0% 3.9%;
 
     --card: 0 0% 100%;
@@ -67,5 +67,29 @@
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
+  }
+}
+
+@layer utilities {
+  .gradient-background {
+    --static-transparent: #00000000;
+    --brand-background-medium: #c0fdbb;
+    --accent-solid-medium: #db3400;
+
+    background: radial-gradient(
+        100% 100% at 49.99% 0%,
+        var(--static-transparent) 0%,
+        hsl(var(--background)) 100%
+      ),
+      radial-gradient(
+        87.4% 84.04% at 6.82% 16.24%,
+        theme("colors.teal.700") 0%,
+        var(--static-transparent) 100%
+      ),
+      radial-gradient(
+        217.89% 126.62% at 48.04% 0%,
+        theme("colors.orange.400") 0%,
+        var(--static-transparent) 100%
+      );
   }
 }

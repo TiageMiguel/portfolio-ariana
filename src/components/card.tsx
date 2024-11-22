@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 export const Card = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="flex flex-col gap-4 rounded-3xl bg-neutral-100 p-8 dark:bg-neutral-950">
+    <div className="flex flex-col gap-4 rounded-3xl bg-white p-8 dark:bg-neutral-950">
       {children}
     </div>
   );
@@ -87,10 +87,10 @@ function ItemContent({ title, description, badge, external }: CardItemProps) {
   return (
     <>
       <div className="flex flex-row items-center justify-between">
-        <p className="font-base flex flex-col-reverse items-start justify-start text-lg text-neutral-900 transition-all duration-300 group-hover:text-blue-600 dark:text-neutral-300 dark:group-hover:text-blue-400 md:flex-row">
+        <p className="font-base flex flex-col-reverse items-start justify-start text-lg text-neutral-900 transition-all duration-300 group-hover:text-teal-600 dark:text-neutral-300 dark:group-hover:text-teal-400 md:flex-row">
           {title}
           {badge && (
-            <span className="mb-1 mt-2 rounded-full border-2 border-blue-600 px-2.5 py-1 text-xs font-semibold text-blue-600 dark:border-blue-400 dark:text-blue-400 md:ml-2 md:mt-0">
+            <span className="mb-1 mt-2 rounded-full border-2 border-teal-600 px-2.5 py-1 text-xs font-semibold text-teal-600 dark:border-teal-400 dark:text-teal-400 md:ml-2 md:mt-0">
               {badge}
             </span>
           )}
@@ -99,13 +99,13 @@ function ItemContent({ title, description, badge, external }: CardItemProps) {
           <ArrowUpRight
             size={18}
             weight="bold"
-            className="text-neutral-900 transition-all duration-500 group-hover:text-blue-600 dark:text-neutral-300 dark:group-hover:text-blue-400"
+            className="text-neutral-900 transition-all duration-500 group-hover:text-teal-600 dark:text-neutral-300 dark:group-hover:text-teal-400"
           />
         ) : (
           <Plus
             size={18}
             weight="bold"
-            className="text-neutral-900 transition-all duration-500 group-hover:text-blue-600 dark:text-neutral-300 dark:group-hover:text-blue-400"
+            className="text-neutral-900 transition-all duration-500 group-hover:text-teal-600 dark:text-neutral-300 dark:group-hover:text-teal-400"
           />
         )}
       </div>

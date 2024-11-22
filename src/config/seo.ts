@@ -59,6 +59,10 @@ export const defaultMetadata: Metadata = {
       follow: true,
     },
   },
+  twitter: {
+    title: "Ariana Soares",
+    card: "summary_large_image",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", type: "image/x-icon" },

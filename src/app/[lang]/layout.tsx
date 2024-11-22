@@ -53,12 +53,12 @@ export default async function RootLayout({ params, children }: LayoutProps) {
             id="main-content"
             className="flex-start relative flex min-h-screen items-start justify-center py-16"
           >
-            <div className="pointer-events-none fixed inset-x-0 top-0 z-50 h-16 bg-gradient-to-b from-background to-background/0" />
             <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 h-16 bg-gradient-to-b from-background/0 to-background" />
-            <div className="container mx-auto max-w-5xl">
+            <div className="gradient-background z-1 pointer-events-none fixed inset-0"></div>
+            <div className="container z-10 mx-auto max-w-5xl">
               <div className="gap- flex flex-col gap-6">
                 <div className="flex flex-row justify-between px-4">
-                  <div className="size-28 rounded-full lg:size-32">
+                  <div className="size-32 rounded-full lg:size-40">
                     <Link href={`/${lang}`} lang={lang}>
                       <span className="sr-only">Ariana Soares Image</span>
                       <Image

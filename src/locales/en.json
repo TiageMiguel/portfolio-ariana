@@ -50,6 +50,26 @@
             }
           ]
         },
+        "socials": {
+          "title": "Follow me",
+          "items": [
+            {
+              "title": "@_arianaa.soares_",
+              "description": "Instagram - Main",
+              "link": "https://www.instagram.com/_arianaa.soares_/"
+            },
+            {
+              "title": "@arianasoares_consultoria",
+              "description": "Instagram - Image Consultancy",
+              "link": "https://www.instagram.com/arianasoares_consultoria/"
+            },
+            {
+              "title": "@image_by_ariana",
+              "description": "TikTok - Image Consultancy",
+              "link": "https://www.tiktok.com/@image_by_ariana"
+            }
+          ]
+        },
         "discover": {
           "title": "Discover",
           "items": [
@@ -72,26 +92,6 @@
             {
               "title": "How I organize your wardrobe?",
               "link": "/w/transform-wardrobe"
-            }
-          ]
-        },
-        "socials": {
-          "title": "Follow me",
-          "items": [
-            {
-              "title": "@_arianaa.soares_",
-              "description": "Instagram - Main",
-              "link": "https://www.instagram.com/_arianaa.soares_/"
-            },
-            {
-              "title": "@arianasoares_consultoria",
-              "description": "Instagram - Image Consultancy",
-              "link": "https://www.instagram.com/arianasoares_consultoria/"
-            },
-            {
-              "title": "@image_by_ariana",
-              "description": "TikTok - Image Consultancy",
-              "link": "https://www.tiktok.com/@image_by_ariana"
             }
           ]
         }

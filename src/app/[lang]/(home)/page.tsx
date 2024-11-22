@@ -38,8 +38,8 @@ export default async function PageHome({ params }: PageParams) {
         Ariana Soares | {translation.pages.homepage.title}
       </h1>
       <div className="px-4">
-        <h2 className="text-xl font-medium leading-tight text-neutral-600 dark:text-neutral-500 lg:text-2xl">
-          <span className="text-neutral-950 dark:text-neutral-100">
+        <h2 className="text-xl font-normal leading-tight text-foreground/70 lg:text-2xl">
+          <span className="font-semibold text-foreground">
             {translation.pages.homepage.about_highlighted}
           </span>
           <br />

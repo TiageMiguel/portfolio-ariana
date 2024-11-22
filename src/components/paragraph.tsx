@@ -25,7 +25,7 @@ export const Paragraph: FC<ParagraphProps> = ({
       {(title || subtitle) && (
         <div className="mb-1">
           {title && !titleLink && (
-            <span className="block text-lg font-semibold text-foreground">
+            <span className="block text-lg font-semibold text-foreground md:text-xl">
               {title}
             </span>
           )}
@@ -45,7 +45,7 @@ export const Paragraph: FC<ParagraphProps> = ({
           )}
         </div>
       )}
-      <p className="text-foreground/70">{paragraph}</p>
+      <p className="text-base text-foreground/80 md:text-lg">{paragraph}</p>
     </div>
   );
 };

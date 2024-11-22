@@ -3,8 +3,8 @@
   "version": "3.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 9999 --turbo",
-    "build": "next build -d",
+    "dev": "next dev -p 9998 --turbo",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier src/ --write"
