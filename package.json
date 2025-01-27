@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 9998 --turbo",
+    "dev": "next dev -p 9998 --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -19,10 +19,10 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "negotiator": "^0.6.3",
-    "next": "^15.0.1",
+    "next": "^15.1.6",
     "next-themes": "^0.3.0",
-    "react": "^19.0.0-rc-69d4b800-20241021",
-    "react-dom": "^19.0.0-rc-69d4b800-20241021",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "sharp": "^0.33.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
@@ -33,11 +33,11 @@
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "autoprefixer": "^10.0.1",
     "eslint": "^9.13.0",
-    "eslint-config-next": "15.0.1",
+    "eslint-config-next": "^15.1.6",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-check-file": "^2.8.0",
     "eslint-plugin-n": "^17.10.3",
@@ -46,9 +46,5 @@
     "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  },
-  "overrides": {
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }

@@ -20,7 +20,6 @@ export const getTranslation = async (locale: Locale) => {
   try {
     return await dictionaries[locale]();
   } catch (error) {
-    console.error(`Failed to load dictionary for locale: ${locale}`, error);
     throw new Error("Translation loading failed");
   }
 };

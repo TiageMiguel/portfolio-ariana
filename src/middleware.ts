@@ -25,9 +25,6 @@ export function middleware(request: NextRequest) {
 
   if (!pathnameHasValidLocale) {
     const locale = getLocale(request);
-
-    console.log({ pathname, locale });
-
     const newUrl = new URL(
       pathname === "/" ? `/${locale}` : `/${locale}${pathname}`,
       request.url
