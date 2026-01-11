@@ -8,7 +8,12 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { LanguageSwitcher } from "@/components/switcher-language";
 import { ThemeSwitcher } from "@/components/switcher-theme";
 import { defaultMetadata, defaultViewport } from "@/config/seo";
-import { defaultLocale, getTranslation, locales } from "@/locales/translations";
+import {
+  Locale,
+  defaultLocale,
+  getTranslation,
+  locales,
+} from "@/locales/translations";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { PageParams } from "@/types/page-types";
 
@@ -32,9 +37,13 @@ interface LayoutProps extends PageParams {
   children: React.ReactNode;
 }
 
-export default async function RootLayout({ params, children }: LayoutProps) {
+export default async function RootLayout(props: LayoutProps) {
+  const params = await props.params;
+
+  const { children } = props;
+
   const { lang } = params;
-  const translation = await getTranslation(lang ?? defaultLocale);
+  const translation = await getTranslation((lang as Locale) ?? defaultLocale);
 
   return (
     <html lang={lang} suppressHydrationWarning>
@@ -75,7 +84,7 @@ export default async function RootLayout({ params, children }: LayoutProps) {
                   </div>
                   <div className="flex flex-row">
                     <ThemeSwitcher />
-                    <LanguageSwitcher lang={lang} />
+                    <LanguageSwitcher lang={lang as Locale} />
                   </div>
                 </div>
                 {children}

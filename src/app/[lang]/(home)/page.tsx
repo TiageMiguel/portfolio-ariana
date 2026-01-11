@@ -8,14 +8,14 @@ import {
   CardTitle,
 } from "@/components/card";
 import { generateSEOMetadata } from "@/lib/seo";
-import { getTranslation } from "@/locales/translations";
+import { Locale, getTranslation } from "@/locales/translations";
 import { PageParams } from "@/types/page-types";
 
 export async function generateMetadata({
   params,
 }: PageParams): Promise<Metadata> {
   const { lang } = await params;
-  const translation = await getTranslation(lang);
+  const translation = await getTranslation(lang as Locale);
 
   return generateSEOMetadata({
     title: translation.pages.homepage.title,
@@ -25,7 +25,7 @@ export async function generateMetadata({
 
 export default async function PageHome({ params }: PageParams) {
   const { lang } = await params;
-  const translation = await getTranslation(lang);
+  const translation = await getTranslation(lang as Locale);
 
   const cards = Object.entries(translation.pages.homepage.cards);
   const cardsHalfLength = Math.floor(cards.length / 2);
@@ -58,7 +58,11 @@ export default async function PageHome({ params }: PageParams) {
                 {title && <CardTitle title={title} />}
                 <CardContent>
                   {items.map((item: CardItemProps, index: number) => (
-                    <CardItem key={index.toString()} {...item} lang={lang} />
+                    <CardItem
+                      key={index.toString()}
+                      {...item}
+                      lang={lang as Locale}
+                    />
                   ))}
                 </CardContent>
               </Card>
@@ -74,7 +78,11 @@ export default async function PageHome({ params }: PageParams) {
                 {title && <CardTitle title={title} />}
                 <CardContent>
                   {items.map((item: CardItemProps, index: number) => (
-                    <CardItem key={index.toString()} {...item} lang={lang} />
+                    <CardItem
+                      key={index.toString()}
+                      {...item}
+                      lang={lang as Locale}
+                    />
                   ))}
                 </CardContent>
               </Card>

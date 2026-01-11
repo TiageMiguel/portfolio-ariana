@@ -24,7 +24,7 @@ export async function generateMetadata({
   params,
 }: PageParams): Promise<Metadata> {
   const slug = (await params).slug!;
-  const lang = (await params).lang;
+  const lang = (await params).lang as Locale;
   const page = await getTranslatedPageBySlug({ lang, slug });
 
   if (!page) {
@@ -41,7 +41,7 @@ export async function generateMetadata({
 
 export default async function Page({ params }: PageParams) {
   const slug = (await params).slug!;
-  const lang = (await params).lang!;
+  const lang = (await params).lang! as Locale;
   const page = await getTranslatedPageBySlug({ lang, slug });
 
   if (!page) {
