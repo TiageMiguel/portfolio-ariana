@@ -9,7 +9,7 @@ const dictionaries = {
 export type Locale = keyof typeof dictionaries;
 export type Translation = Awaited<ReturnType<(typeof dictionaries)[Locale]>>;
 
-export const defaultLocale = "en";
+export const defaultLocale = "en" as Locale;
 export const locales = Object.keys(dictionaries) as Locale[];
 
 export const getTranslation = async (locale: Locale) => {

@@ -11,12 +11,10 @@ function getLocale(request: NextRequest): string {
   const headers = { "accept-language": acceptedLanguage };
   const languages = new Negotiator({ headers }).languages();
 
-  return match(languages, locales, defaultLocale, {
-    algorithm: "lookup",
-  });
+  return match(languages, locales, defaultLocale, { algorithm: "lookup" });
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const response = NextResponse.next();
   const pathname = request.nextUrl.pathname;
   const pathnameHasValidLocale = locales.some(

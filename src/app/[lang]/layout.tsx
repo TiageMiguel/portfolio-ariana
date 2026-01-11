@@ -33,7 +33,7 @@ interface LayoutProps extends PageParams {
 }
 
 export default async function RootLayout({ params, children }: LayoutProps) {
-  const { lang } = await params;
+  const { lang } = params;
   const translation = await getTranslation(lang ?? defaultLocale);
 
   return (

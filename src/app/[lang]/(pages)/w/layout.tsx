@@ -11,20 +11,18 @@ export async function generateStaticParams() {
     const { w } = translation.pages;
 
     for (const slug of Object.keys(w)) {
-      params.push({
-        lang: locale,
-        slug: slug,
-      });
+      params.push({ lang: locale, slug: slug });
     }
   }
 
   return params;
 }
 
-interface LayoutProps extends PageParams {
+interface LayoutProps {
   children: React.ReactNode;
+  params: PageParams["params"];
 }
 
-export default async function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
   return <div className="flex flex-col gap-12 px-4">{children}</div>;
 }
